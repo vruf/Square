@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         let gradient = CAGradientLayer()
 
         gradient.colors = [UIColor.blue.cgColor, UIColor.red.cgColor]
-        let startPoint = CGPoint(x: 0.2, y: 0.5)
         gradient.endPoint = CGPoint(x: 0.8, y: 0.5)
         gradient.frame = view.bounds
         gradient.cornerRadius = 8 // Will work only if parent is empty
